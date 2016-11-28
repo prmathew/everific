@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 # gem to use bootstrap piblic libraries
 gem 'devise', '~> 4.2.0'
-# gem for flexible authentication
+# gem for flexible authentication and readymade code
 
 group :development, :test do
 	gem 'sqlite3'
