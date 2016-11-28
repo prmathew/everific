@@ -75,6 +75,11 @@ Rails.application.configure do
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
 
+  # required for Heroku, initializing devise gem for authentication
+  # NOTE: SAet this to the actual domain/hostname
+config.action_mailer.default_url_options = { host: 'http://everific.herokuapp.com/' }
+
+
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter
