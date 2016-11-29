@@ -77,7 +77,7 @@ Rails.application.configure do
 
   # required for Heroku, initializing devise gem for authentication
   # NOTE: SAet this to the actual domain/hostname
-config.action_mailer.default_url_options = { host: 'http://everific.herokuapp.com/' }
+  config.action_mailer.default_url_options = { host: 'https://everific.herokuapp.com/' }
 
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
