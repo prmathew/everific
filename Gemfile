@@ -29,6 +29,8 @@ gem 'bootstrap-sass'
 # gem to use bootstrap piblic libraries
 gem 'devise', '~> 4.2.0'
 # gem for flexible authentication and readymade code
+gem 'paperclip', '~> 4.2'
+# gem for uploading images
 
 group :development, :test do
 	gem 'sqlite3'
