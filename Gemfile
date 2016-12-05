@@ -31,6 +31,8 @@ gem 'devise', '~> 4.2.0'
 # gem for flexible authentication and readymade code
 gem 'paperclip', github: 'thoughtbot/paperclip'
 # gem for uploading images
+gem 'aws-sdk', '< 2.0'
+# AWS S3 for image storage
 
 group :development, :test do
 	gem 'sqlite3'
