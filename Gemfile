@@ -29,7 +29,7 @@ gem 'bootstrap-sass'
 # gem to use bootstrap piblic libraries
 gem 'devise', '~> 4.2.0'
 # gem for flexible authentication and readymade code
-gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
 # gem for uploading images
 gem 'aws-sdk', '< 2.0'
 # AWS S3 for image storage
